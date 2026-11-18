@@ -2,12 +2,8 @@ body {
     margin: 0;
 }
 
-h1 {
-    margin: 0px;
-}
-
-p {
-    margin: 0px;
+h1,p {
+    margin: 0;
 }
 
 .nav {
@@ -22,29 +18,28 @@ p {
     display: flex;
     align-items: center;
     gap: 15px;
+}
 
-    .frame {
-        background-color: #6C4DFF;
-        padding: 15px;
-        border-radius: 18px;
+.frame {
+    background-color: #6C4DFF;
+    padding: 15px;
+    border-radius: 18px;
+}
 
-        .plus {
-            margin: 0;
-            font-size: 35px;
-            font-weight: bold;
-            color: white;
-        }
-    }
+.plus {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
 
-    .status {
-        padding: 15px;
-        background-color: #45D9B3;
-        border-radius: 20px;
+.status {
+    padding: 15px;
+    background-color: #45D9B3;
+    border-radius: 20px;
+}
 
-        p {
-            color: #075744;
-        }
-    }
+.status p {
+    color: #075744;
 }
 
 main {
