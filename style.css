@@ -20,7 +20,7 @@ h1,p {
     gap: 15px;
 }
 
-.frame {
+.brand p {
     background-color: #6C4DFF;
     padding: 15px;
     border-radius: 18px;
@@ -43,6 +43,26 @@ h1,p {
 }
 
 main {
-    background-color: aqua;
+    background-color: #DCE1F4;
     min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info {
+    border: solid;
+    border-width: 1px;
+}
+
+.info p {
+    font-size: medium;
+    padding: 15px;
+    background-color: #FFD45B;
+    border-radius: 20px;
+}
+
+.form {
+    border: solid;
+    border-width: 1px;
 }
